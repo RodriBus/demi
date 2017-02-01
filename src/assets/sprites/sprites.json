@@ -1,0 +1,676 @@
+{
+    "sprites": [{
+        "id": "test",
+        "src": "/assets/sprites/test/test.png",
+        "animations": [{
+            "id": "a_switch_big",
+            "frames": [{
+                "id": "0",
+                "time": 500,
+                "origin": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 50,
+                    "height": 50
+                }
+            }, {
+                "id": "1",
+                "time": 500,
+                "origin": {
+                    "x": 50,
+                    "y": 0
+                },
+                "size": {
+                    "width": 50,
+                    "height": 50
+                }
+            }]
+        }, {
+            "id": "a_switch_small",
+            "frames": [{
+                "id": "0",
+                "time": 100,
+                "origin": {
+                    "x": 0,
+                    "y": 50
+                },
+                "size": {
+                    "width": 50,
+                    "height": 50
+                }
+            }, {
+                "id": "1",
+                "time": 100,
+                "origin": {
+                    "x": 50,
+                    "y": 50
+                },
+                "size": {
+                    "width": 50,
+                    "height": 50
+                }
+            }]
+        }, {
+            "id": "a_empty",
+            "frames": [{
+                "id": "0",
+                "time": 1,
+                "origin": {
+                    "x": 60,
+                    "y": 10
+                },
+                "size": {
+                    "width": 0,
+                    "height": 0
+                }
+            }]
+        }],
+        "tiles": [{
+            "id": "t_empty",
+            "origin": {
+                "x": 0,
+                "y": 0
+            },
+            "size": {
+                "width": 50,
+                "height": 50
+            }
+        }, {
+            "id": "t_static_big",
+            "origin": {
+                "x": 0,
+                "y": 0
+            },
+            "size": {
+                "width": 50,
+                "height": 50
+            }
+        }, {
+            "id": "t_static_big_transp",
+            "origin": {
+                "x": 0,
+                "y": 51
+            },
+            "size": {
+                "width": 50,
+                "height": 50
+            }
+        }, {
+            "id": "t_static_small",
+            "origin": {
+                "x": 51,
+                "y": 0
+            },
+            "size": {
+                "width": 50,
+                "height": 50
+            }
+        }, {
+            "id": "t_static_small_transp",
+            "origin": {
+                "x": 51,
+                "y": 51
+            },
+            "size": {
+                "width": 50,
+                "height": 50
+            }
+        }]
+    }, {
+	"id": "main",
+	"src": "/assets/sprites/main/main.png",
+	"animations": [
+		{
+			"id": "a_hero_idle",
+			"frames": [
+				{
+					"id": "0",
+					"time": 180,
+					"origin": {
+						"x": 81,
+						"y": 0
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "1",
+					"time": 180,
+					"origin": {
+						"x": 97,
+						"y": 0
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "2",
+					"time": 180,
+					"origin": {
+						"x": 113,
+						"y": 0
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				}
+			]
+		},
+		{
+			"id": "a_hero_run_right",
+			"frames": [
+				{
+					"id": "0",
+					"time": 100,
+					"origin": {
+						"x": 81,
+						"y": 17
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "1",
+					"time": 100,
+					"origin": {
+						"x": 97,
+						"y": 16
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "2",
+					"time": 100,
+					"origin": {
+						"x": 113,
+						"y": 16
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "3",
+					"time": 100,
+					"origin": {
+						"x": 129,
+						"y": 16
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "4",
+					"time": 100,
+					"origin": {
+						"x": 145,
+						"y": 16
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "5",
+					"time": 100,
+					"origin": {
+						"x": 161,
+						"y": 16
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				}
+			]
+		},
+		{
+			"id": "a_hero_run_left",
+			"frames": [
+				{
+					"id": "0",
+					"time": 100,
+					"origin": {
+						"x": 81,
+						"y": 32
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "1",
+					"time": 100,
+					"origin": {
+						"x": 97,
+						"y": 32
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "2",
+					"time": 100,
+					"origin": {
+						"x": 113,
+						"y": 32
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "3",
+					"time": 100,
+					"origin": {
+						"x": 129,
+						"y": 32
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "4",
+					"time": 100,
+					"origin": {
+						"x": 145,
+						"y": 32
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				},
+				{
+					"id": "5",
+					"time": 100,
+					"origin": {
+						"x": 161,
+						"y": 32
+					},
+					"size": {
+						"width": 16,
+						"height": 16
+					}
+				}
+			]
+		}
+	],
+	"tiles": [
+		{
+			"id": "t_empty",
+			"origin": {
+				"x": 0,
+				"y": 0
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_flower",
+			"origin": {
+				"x": 16,
+				"y": 0
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_top_left",
+			"origin": {
+				"x": 32,
+				"y": 0
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_top",
+			"origin": {
+				"x": 48,
+				"y": 0
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_top_right",
+			"origin": {
+				"x": 64,
+				"y": 0
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sign_alfa",
+			"origin": {
+				"x": 0,
+				"y": 16
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_tile",
+			"origin": {
+				"x": 16,
+				"y": 16
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_left",
+			"origin": {
+				"x": 32,
+				"y": 16
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass",
+			"origin": {
+				"x": 48,
+				"y": 16
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_right",
+			"origin": {
+				"x": 64,
+				"y": 16
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sign_grass",
+			"origin": {
+				"x": 0,
+				"y": 32
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_bridge",
+			"origin": {
+				"x": 16,
+				"y": 32
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_bottom_left",
+			"origin": {
+				"x": 32,
+				"y": 32
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_bottom",
+			"origin": {
+				"x": 48,
+				"y": 32
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_grass_bottom_right",
+			"origin": {
+				"x": 64,
+				"y": 32
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sign_tile",
+			"origin": {
+				"x": 0,
+				"y": 48
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_top_left",
+			"origin": {
+				"x": 32,
+				"y": 48
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_top",
+			"origin": {
+				"x": 48,
+				"y": 48
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_top_right",
+			"origin": {
+				"x": 64,
+				"y": 48
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sign_bridge",
+			"origin": {
+				"x": 0,
+				"y": 64
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_left",
+			"origin": {
+				"x": 32,
+				"y": 64
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand",
+			"origin": {
+				"x": 48,
+				"y": 64
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_right",
+			"origin": {
+				"x": 64,
+				"y": 64
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sign_sand",
+			"origin": {
+				"x": 0,
+				"y": 80
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_bottom_left",
+			"origin": {
+				"x": 32,
+				"y": 80
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_bottom",
+			"origin": {
+				"x": 48,
+				"y": 80
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_sand_bottom_right",
+			"origin": {
+				"x": 64,
+				"y": 80
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_fence",
+			"origin": {
+				"x": 0,
+				"y": 96
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_fence_grass",
+			"origin": {
+				"x": 0,
+				"y": 112
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_fence_tile",
+			"origin": {
+				"x": 0,
+				"y": 128
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_fence_bridge",
+			"origin": {
+				"x": 0,
+				"y": 144
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"id": "t_fence_sand",
+			"origin": {
+				"x": 0,
+				"y": 160
+			},
+			"size": {
+				"width": 16,
+				"height": 16
+			}
+		}
+	]
+}]
+}

@@ -1,0 +1,21 @@
+.canvas-container {
+    width: 100%;
+    text-align: center;
+}
+canvas {
+    display: inline;
+    background: rgb(249, 250, 219);
+}
+canvas {
+    box-shadow: inset 0 0 5px #000000;
+    display: inline;
+}
+body {
+    background: lightgrey;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

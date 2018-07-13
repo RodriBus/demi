@@ -1019,7 +1019,7 @@ var SpriteManager = (function () {
         return tile;
     };
     SpriteManager.loadSprites = function (cb) {
-        var loader = new JsonLoader_1.default('./assets/sprites/sprites.json');
+        var loader = new JsonLoader_1.default('/demi/assets/sprites/sprites.json');
         loader.load(function (json) {
             var obj = JSON.parse(json);
             var totalImg = obj.sprites.length;

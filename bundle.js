@@ -923,7 +923,7 @@ var Sprite = (function () {
         this.image.src = src;
     }
     Sprite.fromJSONObject = function (obj) {
-        var sprite = new Sprite(obj.id, obj.src);
+        var sprite = new Sprite(obj.id, "/demi"+obj.src);
         for (var _i = 0, _a = obj.animations; _i < _a.length; _i++) {
             var animInfo = _a[_i];
             var animation = new Animation();
